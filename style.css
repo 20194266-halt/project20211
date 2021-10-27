@@ -1,0 +1,151 @@
+nav
+{background-color:rgb(40, 187, 52);
+ height: 60px;
+ margin-top: 0px;
+
+}
+.endpage {
+  border: 1px solid rgb(40, 187, 52);
+  margin: 100px 0px 0px 0px;
+  background-color: rgb(40, 187, 52);
+  text-align: left;
+  font-family: Tahoma, sans-serif;
+  font-size: 20px;
+  padding-left: 15cm;
+}
+ul.navbar-nav {
+list-style-type: none;
+text-align: center;
+padding: 0;
+overflow: hidden;
+background-color:rgb(40, 187, 52);
+position: fixed;
+   }  
+
+.nav-link
+{
+  font-family: Tahoma, sans-serif;
+  font-size: 20px;  
+  
+}
+.navbar-brand
+{
+  font-family: "Sofia", sans-serif;
+  font-size: 35px;
+  text-align: center; 
+  width: 9cm; 
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding-top: 25px;
+text-decoration: none;
+margin-left: 0px;
+width: 199px;
+height: 60px;
+}
+
+li a:hover:not(.active) {
+background-color:rgb(8, 245, 28);
+}
+.active {
+background-color:rgb(8, 245, 28);
+} 
+p
+{margin: 100px 100px 100px 100px;}
+
+
+div.content
+{
+  
+  padding-left: 5%;
+  padding-top: 2%;
+  
+  
+}
+#img1
+{
+  margin-top: 1.5cm;
+  margin-left: 1cm;
+}
+#img2
+{
+  padding-top: 1.5cm;
+  margin-left: 1cm;
+  
+}
+@media only screen and (max-width: 620px) {
+  #img1, #img2 {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+#head
+{
+  font-family: "Sofia", sans-serif;
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold
+  
+
+
+}
+#bodytext
+{
+  font-family: "Sofia", sans-serif;
+  text-align: left;
+  font-size: 15px;
+  float: right;
+  margin-left: 1cm;
+  padding-top: 0cm;
+  font-weight: normal;
+}
+img.slide
+{top: 1cm;
+float: left;
+padding-top: 1cm;
+
+}
+div.background {
+  background-image: url("https://duan-ecopark.com.vn/wp-content/uploads/2021/01/Phoi-canh-Shophouse-6.jpg"  ) ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  
+  background-size: cover;
+  height: 800px;
+  width: 1400px;
+  margin-left: 60px;
+  margin-top: 2cm;
+  padding-block-start: 2cm;
+
+}
+div.transbox { 
+background-color: #ffffff;
+width: 60%;
+opacity: 0.6;
+border-radius: 8px ;
+margin: 11%;
+margin-top: 1%;
+margin-bottom: 6%;
+padding-block-end: 8%;
+}
+
+div.transbox p {
+
+font-weight: bold;
+font-size: 25px;
+padding-block-start: 2cm;
+margin: 10%;
+border-width: 4cm;
+margin-top: 2cm;
+
+
+
+}
+div.endpage
+{
+line-height: 1.5;
+font-family:Arial, Helvetica, sans-serif;
+}
