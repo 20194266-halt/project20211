@@ -2,6 +2,6 @@
 function myFunction() {
     document.getElementById("home").innerHTML = "I love learning JavaScript!";
   }
-function myFunction() {
-    document.getElementById("home").innerHTML = "Let's get started";
+  function myFunction() {
+    document.getElementById("home").innerHTML = "hello js";
   }
