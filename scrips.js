@@ -5,6 +5,7 @@ function myFunction() {
   function myFunction() {
     document.getElementById("home").innerHTML = "hello js";
   }
-function myFunction() {
+  
+  function myFunction() {
     document.getElementById("home").innerHTML = "welcome to our page";
   }
